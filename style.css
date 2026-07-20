@@ -1,35 +1,38 @@
 body{
 
-background-color: rgb(255, 255, 255);
+    background-color: rgb(233, 32, 183);
 
-display: flex;
-flex-direction: column;
+    .painel{
+        margin: auto;  /*centraliza o painel*/
+        width: 400px;  /*define o largura do painel*/
+        height: 200px;  /*define o altura do painel*/
+        background-color: white;  /*cor de fundo*/
+        border-radius: 30px;   /*arredonda as bordas*/
+        text-align: center;   /*centraliza o texto*/
+        padding-top: 50px; /*define o espaçamento do topo*/
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow'; /*define a fonte do texto*/
 
-justify-content: center;
-align-items: center;
+    }
+    #btnSim{
 
-height: 100vh;
-margin: 0;
-}
+        background-color: white; /*define a cor de fundo do botão*/
+        color: black; /*define a cor do texto*/
+        border-radius: 10px; /*arredonda as bordas do botão*/
+        width: 80px; /*define o tamanho do botão*/
+        height: 35px; /*define o tamanho do botão*/
+        font-size: 20px; /*define o tamanho da fonte*/
+        margin-right: 100px; /*define o espaçamento da direita*/
+    }
 
-h1{
-    font-family: Arial,sans-serif;
+    #btnNao{
 
-}
+        background-color: white; /*define a cor de fundo do botão*/
+        color: black; /*define a cor do texto*/
+        border-radius: 10px; /*arredonda as bordas do botão*/
+        width: 80px; /*define o tamanho do botão*/
+        height: 35px; /*define o tamanho do botão*/
+        font-size: 20px; /*define o tamanho da fonte*/
+    }
 
-.botoes{
-    margin-top: 20px;
-}
-button{
-    padding: 15px 30px;
-    font-size: 20px;
-    margin: 10px;
-    cursor: pointer;font-size: 20px;
-    margin: 10px;
-    cursor: pointer;
-}
-
-#Nao{
-    position: absolute;
 
 }
