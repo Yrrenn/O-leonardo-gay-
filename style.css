@@ -1,8 +1,9 @@
 body{
 
-    background-color: rgb(233, 32, 183);
+    background-color: rgb(162, 229, 241);
 
     .painel{
+    
         margin: auto;  /*centraliza o painel*/
         width: 400px;  /*define o largura do painel*/
         height: 200px;  /*define o altura do painel*/
@@ -15,6 +16,7 @@ body{
     }
     #btnSim{
 
+
         background-color: white; /*define a cor de fundo do botão*/
         color: black; /*define a cor do texto*/
         border-radius: 10px; /*arredonda as bordas do botão*/
@@ -26,6 +28,7 @@ body{
 
     #btnNao{
 
+        position: absolute;
         background-color: white; /*define a cor de fundo do botão*/
         color: black; /*define a cor do texto*/
         border-radius: 10px; /*arredonda as bordas do botão*/
