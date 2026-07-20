@@ -5,14 +5,15 @@ botaoSim.addEventListener("click", function (){     //Da funciona lidade ao bota
     alert("Eu ja sabia kkkkkkkkk")
 });
 
-botaoNao.addEventisterner("click", function (){     //Da funcionalidade ao botao nao 
+botaoNao.addEventListener("click", function (){     //Da funcionalidade ao botao nao 
     alert("Boa tentativa kkkkkkk")
 });
 
 botaoNao.addEventListener("mouseover", function(){
+    
     let x = Math.random() * (window.innerWidth - 100);
     let y = Math.random() * (window.innerHeight - 50);
 
     botaoNao.style.left = x + "px";
-    botaoSim.style.top = y + "px";  
+    botaoNao.style.top = y + "px";  
 });
