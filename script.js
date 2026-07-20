@@ -1,19 +1,12 @@
-let botaoSim = document.getElementById("Sim"); // Cria os dois botoes 
-let botaoNao = document.getElementById("Nao");
+const btnSim = document.querySelector('#btnSim');
+const btnNao = document.querySelector('#btnNao');
 
-botaoSim.addEventListener("click", function (){     //Da funciona lidade ao botao sim
-    alert("Eu ja sabia kkkkkkkkk")
-});
+    btnNao.addEventListener('click', function(){
 
-botaoNao.addEventListener("click", function (){     //Da funcionalidade ao botao nao 
-    alert("Boa tentativa kkkkkkk")
-});
+        alert('Para, tu é que eu sei! esse queima!');
 
-botaoNao.addEventListener("mouseover", function(){
-    
-    let x = Math.random() * (window.innerWidth - 100);
-    let y = Math.random() * (window.innerHeight - 50);
+    });
 
-    botaoNao.style.left = x + "px";
-    botaoNao.style.top = y + "px";  
+    btnSim.addEventListener('click', function (){
+        alert('Sabia kkk!');
 });
